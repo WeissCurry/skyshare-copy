@@ -1,0 +1,27 @@
+.contact-padding {
+  height: 500px;
+}
+
+@media (max-width: 639px) {
+  .contact-padding {
+    height: 300px;
+  }
+}
+
+.contact-buttons-white{
+  border-radius: var(--radius-Large, 14.554px);
+  border: 1.819px solid var(--Neutral-2, #334151);
+  background: #FFF;
+  width: 308.362px;
+  padding: 14.554px 21.831px;
+  box-shadow: 10px 10px 0px 0px rgba(51, 65, 81, 1);
+}
+
+.svgAUAH {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: -3px;
+  bottom: -9px;
+  fill: var(--Primary-4, #FFD9AC);
+}

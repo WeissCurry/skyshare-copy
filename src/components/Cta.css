@@ -1,0 +1,27 @@
+.cta-padding {
+    width: 1152px;
+    height: 600px;
+  }
+  
+  .logo-title img {
+    width: 218px;
+    height: 165.442px;
+    flex-shrink: 0;
+  }
+  
+  .regist {
+    color: #cccfd3;
+  }
+  
+  @media (max-width: 639px) {
+    .cta-padding {
+      width: 320px;
+      height: 370px;
+    }
+  
+    .logo-title img {
+      width: 109px;
+      height: 82.721px;
+    }
+  }
+  

@@ -1,0 +1,50 @@
+.content {
+  height: 31.25rem;
+  width: 72rem;
+}
+
+.tagline {
+  width: 29.188rem;
+}
+
+.tagline h1 {
+  font-size: 3.125rem;
+  line-height: 150%;
+}
+
+.tagline p {
+  line-height: 150%;
+  font-size: 1rem;
+}
+
+.content button {
+  width: 17.25rem;
+}
+
+.content-1 {
+  width: 72rem;
+}
+
+@media (max-width: 639px) {
+  .content {
+    height: 18.75rem;
+    width: 19.5rem;
+  }
+
+  .tagline {
+    width: 19.5rem;
+  }
+
+  .tagline h1 {
+    font-size: 2rem; /* 32px dengan basis 16px */
+  }
+
+  .tagline p {
+    line-height: 130%;
+    font-size: 0.875rem;
+  }
+
+  .content button {
+    width: 13rem;
+  }
+}

@@ -1,0 +1,25 @@
+.benefit-card {
+  width: 294px;
+  height: 360px;
+  border-radius: 16px;
+  border: 1px solid#001125;
+  /* Shadow/2 */
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.horz-rule {
+  border: 1px solid #001125;
+}
+
+.star-icon {
+  margin-top: -85px;
+}
+@media (max-width: 639px) {
+  .benefit-card {
+    width: 208px;
+    height: 250px;
+  }
+  .star-icon {
+    margin-top: -64px;
+  }
+}

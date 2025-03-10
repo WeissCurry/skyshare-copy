@@ -1,0 +1,12 @@
+.alur-img {
+  /* Shadow/2 */
+
+  width: 956px;
+  height: 350px;
+}
+@media (max-width: 639px) {
+  .alur-img {
+    width: 312px;
+    height: 114.226px;
+  }
+}

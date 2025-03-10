@@ -1,0 +1,25 @@
+.help-container {
+  height: 492px;
+}
+
+.form-info {
+  width: 466px;
+}
+
+.form-suggest {
+  width: 466px;
+}
+
+@media (max-width: 639px) {
+  .help-container {
+    height: auto;
+  }
+
+  .form-info {
+    width: auto;
+  }
+
+  .form-suggest {
+    width: auto;
+  }
+}
