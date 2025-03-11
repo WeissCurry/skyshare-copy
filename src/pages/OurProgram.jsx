@@ -107,8 +107,7 @@ function OurProgram() {
             </div>
             <h2 className="headline-2">Parents Academy</h2>
             <p className="paragraph px-6">
-              Parents Academy merupakan program untuk..Lorem Ipsum Dolor Sit
-              Ammet
+              Parents Academy untuk orang tua member Talents Academy yang bertindak sebagai pendukung (support system) program agar memiliki kesamaan visi misi dalam pembentukan karakter dan pengembangan potensi talents.
             </p>
             <Button onClick={() => navigate("/ourprogram/parents")}>
               <div className="flex gap-2">
