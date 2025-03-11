@@ -15,7 +15,7 @@ function ParentsActivitiesHero() {
                 src={ParentsLogo}
                 alt="logo"
               />
-              <h1 className="headline-1 text-center text-neutral-1 mt-2">
+              <h1 className="headline-1 w-[268px] text-center text-neutral-1 mt-2">
                 Parents Activites
               </h1>
               <div className="flex items-center mt-5 justify-center gap-2">
