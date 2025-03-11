@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       <div className=" neutral-white lg:max-w-6xl bottom-0 left-0 w-full lg:py-24 xs:py-14 flex flex-col text-xl font-normal mx-auto items-center">
-        <div className=" lg:w-footer-content w-4/5 flex items-end flex-wrap content-between">
+        <div className=" lg:w-full w-4/5 flex items-end flex-wrap content-between">
           <div className="footer-container flex flex-col items-start lg:gap-16 xs:gap-8">
             <div className="logo flex flex-col items-start">
               <div className="logo-placeholder lg:w-44 lg:h-14 xs:w-28 xs:h-6 xs:mb-4">
