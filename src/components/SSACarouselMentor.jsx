@@ -53,7 +53,7 @@ function SsaCarousel() {
           </div>
           <hr className=" horz-rule" />
           <p className="alternative-paragraph">
-            Lorem ipsum dolor sit ammet, consectetur edipiching elit
+            Merupakan Kegiatan Peningkatan mutu, pengetahuan dan keterampilan (hard skill & Soft skill), ilmu manajemen diri dan pengelolaan kelompok mentoring bagi pesertanya dalam hal ini para KaMen.
           </p>
         </div>
         <div className="activities-card lg:ml-9 -ml-9 mt-10 px-4 pb-6 pt-8 lg:px-6 lg:pt-11 lg:pb-6 bg-white gap-4 lg:gap-4 text-center items-center">
@@ -77,7 +77,7 @@ function SsaCarousel() {
           </div>
           <hr className=" horz-rule" />
           <p className="alternative-paragraph">
-            Lorem ipsum dolor sit ammet, consectetur edipiching elit
+            Merupakan kegiatan yang berisi tentang penambahan wawasan keislaman kepada para KaMen oleh seorang nara sumber yang mencakup aqidah, akhlak, ibadah, fiqih, dengan tujuan memperoleh pemahaman Islam yang syamil sehingga terbentuk para KaMen yang memiliki Syakhsiyah Islamiyah (Kepribadian Islam) dan Syakhsiyah Daiyah (Kepribadian Dai).
           </p>
         </div>
         <div className="activities-card lg:ml-9 -ml-9 mt-10 px-4 pb-6 pt-8 lg:px-6 lg:pt-11 lg:pb-6 bg-white gap-4 lg:gap-4 text-center items-center">
@@ -101,7 +101,7 @@ function SsaCarousel() {
           </div>
           <hr className=" horz-rule" />
           <p className="alternative-paragraph">
-            Lorem ipsum dolor sit ammet, consectetur edipiching elit
+            Merupakan pembimbingan singkat dalam bentuk pelatihan atau sesi perorangan yang ditujukan untuk penguatan pengetahuan dan kecakapan di bidang tertentu. Coaching Clinic juga berfungsi sebagai ajang untuk mengkonsultasikan tentang berbagai hal (pengaplikasian materi yang sudah didapatkan maupun permasalahan yang ditemui - termasuk masalah dengan member - selama sesi pembinaan kelas karakter berlangsung.)
           </p>
         </div>
       </Slider>

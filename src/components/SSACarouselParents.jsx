@@ -23,7 +23,7 @@ function SsaCarousel() {
       />
     </svg>`,
       judul: "1. Seminar",
-      deskripsi: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      deskripsi: "Kegiatan mengikuti seminar atau talkshow dengan tema  pengembangan diri yang bertujuan untuk memperluas wawasan dan cakrawala berfikir member dengan waktu minimal setahun sekali.",
     },
     {
       svg: `
@@ -41,7 +41,7 @@ function SsaCarousel() {
         />
       </svg>`,
       judul: "2. Training",
-      deskripsi: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      deskripsi: "Pelatihan kepada member untuk meningkatkan kapasitas softskill dan hardskill dengan waktu minimal setahun sekali",
     },
     {
       svg: `
@@ -59,10 +59,10 @@ function SsaCarousel() {
         />
       </svg>`,
       judul: "3. Parents Talk",
-      deskripsi: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      deskripsi: "Kegiatan rutin tahunan yang mempertemukan manajemen pengelola Skyshare Academy, mentor dan juga orangtua dengan agenda penyampaian laporan perkembangan member dan program yang telah dilakukan serta diskusi terkait program lanjutan dengan waktu minimal setahun sekali",
     },
   ];
-  
+
   var settings = {
     dots: true,
     infinite: true,
@@ -90,21 +90,21 @@ function SsaCarousel() {
   return (
     <>
       <Slider {...settings}>
-      {data.map((item, index) => (
-            <div
-              key={index}
-              className="activities-card lg:ml-9 -ml-10 mt-10 px-4 pb-6 pt-8 lg:px-6 lg:pt-11 lg:pb-6 bg-white gap-4 lg:gap-4 text-center items-center"
-            >
-              <div className="icon-card flex justify-center items-center bg-primary-1 -mt-14 lg:-mt-20">
-                <div dangerouslySetInnerHTML={{ __html: item.svg }} />
-              </div>
-              <div className="main-card flex flex-col item self-stretch">
-                <h4 className="headline-4">{item.judul}</h4>
-              </div>
-              <hr className="horz-rule" />
-              <p className="alternative-paragraph">{item.deskripsi}</p>
+        {data.map((item, index) => (
+          <div
+            key={index}
+            className="activities-card lg:ml-9 -ml-10 mt-10 px-4 pb-6 pt-8 lg:px-6 lg:pt-11 lg:pb-6 bg-white gap-4 lg:gap-4 text-center items-center"
+          >
+            <div className="icon-card flex justify-center items-center bg-primary-1 -mt-14 lg:-mt-20">
+              <div dangerouslySetInnerHTML={{ __html: item.svg }} />
             </div>
-          ))}
+            <div className="main-card flex flex-col item self-stretch">
+              <h4 className="headline-4">{item.judul}</h4>
+            </div>
+            <hr className="horz-rule" />
+            <p className="alternative-paragraph">{item.deskripsi}</p>
+          </div>
+        ))}
       </Slider>
     </>
   );
